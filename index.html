@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Análise Estratégica de Sentimentos da Clínica</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-01Y53DJM3W"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-01Y53DJM3W');
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,6 +67,11 @@
     </style>
 </head>
 <body class="text-slate-800">
+    <!-- Chosen Palette: Warm Neutrals (Slate, Teal) -->
+    <!-- Application Structure Plan: A single-page dashboard with top navigation to jump between thematic sections: Overview, Sentiment Deep Dive, Temporal Evolution, and Tech Opportunities. This structure guides the user from high-level insights to detailed analysis and actionable solutions, prioritizing usability over mirroring the report's linear format. -->
+    <!-- Visualization & Content Choices: Key data is presented with interactive Chart.js charts (Bar, Doughnut, Line) for clarity and engagement. Word clouds are simulated with styled HTML to highlight key terms from patient feedback. The core interaction is a year-selector that dynamically updates the word clouds and summary text, allowing for temporal exploration. Tech opportunities are organized into cards with icons for easy digestion. New LLM feature: Generate a suggested reply to a user-input negative comment, demonstrating AI's role in communication. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+
     <div class="min-h-screen">
         <header class="bg-white shadow-sm sticky top-0 z-10">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
